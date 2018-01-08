@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="head">铭记历史，勿忘国耻！</string>
+    <string name="question1">1.【单选】南京大屠杀发生的时间是？</string>
+    <string name="question1A">A: 1927–11–12</string>
+    <string name="question1B">B: 1937–12–13</string>
+    <string name="question1C">C: 1927–12–10</string>
+    <string name="question2">2.【单选】南京大屠杀…纪念馆的全称是？</string>
+    <string name="question2A">A: 侵华日军南京大屠纪念馆</string>
+    <string name="question2B">B: 南京大屠杀遇难同胞纪念馆</string>
+    <string name="question2C">C：侵华日军南京大屠杀遇难同胞纪念馆</string>
+    <string name="question3">3.【多选】南京大屠杀中的日本战犯有</string>
+    <string name="question3A">A: 山本五十六</string>
+    <string name="question3B">B: 松井石根</string>
+    <string name="question3C">C: 东条英机 </string>
+    <string name="question4">4.【多选】南京大屠杀的守护者有</string>
+    <string name="question4A">A: 约翰· 拉贝</string>
+    <string name="question4B">B: 魏特琳</string>
+    <string name="question4C">C: 约翰· 马吉</string>
+    <string name="question5A">请填入纯数字</string>
+    <string name="question5">5.【填空】南京大屠杀中遇害人数通称多少？</string>
+    <string name="submit">提交</string>
+    <string name="again">重测</string>
+    <string name="score">计分</string>
+    <string name="alert_title">提交结果</string>
+</resources>

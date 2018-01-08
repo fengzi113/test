@@ -1,0 +1,185 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--标题-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/guojiagongji" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center_horizontal"
+            android:text="@string/head"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/head_textsize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <!--单选1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/general"
+                    android:text="@string/question1" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        style="@style/general"
+                        android:text="@string/question1A" />
+
+                    <RadioButton
+                        android:id="@+id/rb_question1_answer"
+                        style="@style/general"
+                        android:text="@string/question1B" />
+
+                    <RadioButton
+                        style="@style/general"
+                        android:text="@string/question1C" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--单选2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/general"
+                    android:paddingTop="5dp"
+                    android:text="@string/question2" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        style="@style/general"
+                        android:text="@string/question2A" />
+
+                    <RadioButton
+                        style="@style/general"
+                        android:text="@string/question2B" />
+
+                    <RadioButton
+                        android:id="@+id/rb_question2_answer"
+                        style="@style/general"
+                        android:text="@string/question2C" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <!--多选1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/general"
+                    android:paddingTop="5dp"
+                    android:text="@string/question3" />
+
+                <CheckBox
+                    android:id="@+id/cb_question3A"
+                    style="@style/general"
+                    android:text="@string/question3A" />
+
+                <CheckBox
+                    android:id="@+id/cb_question3_answer1"
+                    style="@style/general"
+                    android:text="@string/question3B" />
+
+                <CheckBox
+                    android:id="@+id/cb_question3_answer2"
+                    style="@style/general"
+                    android:text="@string/question3C" />
+
+            </LinearLayout>
+
+            <!--多选2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/general"
+                    android:paddingTop="5dp"
+                    android:text="@string/question4" />
+
+                <CheckBox
+                    android:id="@+id/cb_question4_answer1"
+                    style="@style/general"
+                    android:text="@string/question4A" />
+
+                <CheckBox
+                    android:id="@+id/cb_question4_answer2"
+                    style="@style/general"
+                    android:text="@string/question4B" />
+
+                <CheckBox
+                    android:id="@+id/cb_question4_answer3"
+                    style="@style/general"
+                    android:text="@string/question4C" />
+
+            </LinearLayout>
+
+            <!--填空-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/general"
+                    android:paddingTop="5dp"
+                    android:text="@string/question5" />
+
+                <EditText
+                    android:id="@+id/et_question5_answer"
+                    style="@style/general"
+                    android:layout_width="match_parent"
+                    android:hint="@string/question5A"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <!--提交按钮-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="calculate"
+                android:paddingTop="10dp"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
